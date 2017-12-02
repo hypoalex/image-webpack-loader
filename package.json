@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:tcoopman/image-webpack-loader.git"
+    "url": "git@github.com:hypoalex/image-webpack-loader.git"
   },
   "scripts": {
     "test:webpack1": "npm install -q webpack@1.x && npm run test:clean && webpack --config test/webpack1.config.js",
@@ -21,7 +21,7 @@
     "imagemin-optipng": "^5.2.1",
     "imagemin-pngquant": "^5.0.0",
     "imagemin-svgo": "^5.2.1",
-    "imagemin-webp": "^4.0.0",
+    "imagemin-webp": "git+https://github.com/hypoalex/imagemin-webp.git",
     "loader-utils": "^1.1.0",
     "object-assign": "^4.1.1"
   },
